@@ -1,5 +1,5 @@
-from User.Student import Student
-from User.Teacher import Teacher
+from LibraryManagement.User.Student import Student
+from LibraryManagement.User.Teacher import Teacher
 
 Shahid = Student(name="Shahid", address="Springfield",studentId=123455678,phoneNo="132445",email="shahid.h@abc.com",gender="M",status="Present Student")
 Shahid.amount = 123
